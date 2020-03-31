@@ -54,8 +54,15 @@ a:hover {
 
 /* name-banner */
 
-
 .name-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50%;
     background-color: rgb(121, 121, 121);
+}
+
+.name-banner p {
+    font-size: 1.5em;
+    color: lightblue;
 }
